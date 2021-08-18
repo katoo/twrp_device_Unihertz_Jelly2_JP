@@ -1,0 +1,2050 @@
+Starting TWRP 3.5.2_10-0-b76ca98e on Wed Aug 18 05:10:58 2021
+ (pid 323)
+I:=> product model: 'Jelly2'
+I:=> using device id: 'Jelly2'
+RECOVERY_SDCARD_ON_DATA := true
+I:Lun file '/sys/class/android_usb/android0/f_mass_storage/lun0/file' does not exist, USB storage mode disabled
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+TW_INCLUDE_CRYPTO := true
+I:TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:Will use a second brightness file at '/sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:LANG: en
+Starting the UI...
+Skipping adf graphics -- not present in build tree
+cannot find/open a drm device: No such file or directory
+fb0 reports (possibly inaccurate):
+  vi.bits_per_pixel = 32
+  vi.red.offset   =   0   .length =   8
+  vi.green.offset =   8   .length =   8
+  vi.blue.offset  =  16   .length =   8
+setting GGL_PIXEL_FORMAT_RGBA_8888
+double buffered
+framebuffer: 3 (480 x 854)
+Using fbdev graphics.
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+TW_SCREEN_BLANK_ON_BOOT := true
+I:TWFunc::Set_Brightness: Setting brightness control to 0
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 0
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.000000x and height 1.067500x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page splash
+I:Switching packages (splash)
+I:minui: /sys/board_properties/virtualkeys.mtk-tpd is 1 % 6
+I:Loading package: TWRP (/TWRP/theme/ui.zip)
+I:Loading zip theme
+I:Loading package: TWRP (/twres/ui.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/uk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/tr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sv.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/ru.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_PT.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_BR.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/nl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/it.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/id.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/hu.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/fr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/es.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/el.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/de.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/cz.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:PageManager::LoadFileToBuffer loading filename: '/twres/ui.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.000000x and height 1.067500x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Failed to load image from indeterminate013, error -1
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Including file: /twres/portrait.xml...
+I:PageManager::LoadFileToBuffer loading filename: '/twres/portrait.xml' directly
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page main
+I:Loading page main2
+I:Loading page install
+I:Loading page flash_confirm
+I:Loading page flash_zip
+I:Loading page flash_done
+I:Loading page flash_sleep_and_reboot
+I:Loading page flashimage_confirm
+I:Loading page clear_vars
+I:Loading page reboot_system_routine
+I:Loading page confirm_action
+I:Loading page action_page
+I:Loading page singleaction_page
+I:Loading page action_complete
+I:Loading page filecheck
+I:Loading page rebootcheck
+I:Loading page wipe
+I:Loading page advancedwipe
+I:Loading page formatdata
+I:Loading page formatdata_confirm
+I:Loading page checkpartitionlist
+I:Loading page partitionoptions
+I:Loading page refreshfilesystem
+I:Loading page selectfilesystem
+I:Loading page backup
+I:Loading page multiuser_warning
+I:Loading page backup_options
+I:Loading page backupname1
+I:Loading page backupname2
+I:Loading page backupencryption
+I:Loading page backupencryption2
+I:Loading page checkbackuppassword
+I:Loading page backup_run
+I:Loading page restore
+I:Unable to open '//TWRP/BACKUPS/Jelly2'
+I:Loading page restore_read
+I:Loading page restore_decrypt
+I:Loading page try_restore_decrypt
+I:Loading page restore_select
+I:Loading page renamebackup
+I:Loading page restore_run
+I:Loading page mount
+I:Loading page usb_mount
+I:Loading page usb_umount
+I:Loading page system_readonly_check
+I:Loading page fastbootreboot
+I:Loading page reboot
+I:Loading page reboot2
+I:Loading page installapp
+I:Loading page system_readonly
+I:Loading page settings
+I:Loading page settings_timezone
+I:Loading page settings_screen
+I:Loading page settings_vibration
+I:Loading page settings_language
+I:Loading page copylog
+I:Loading page advanced
+I:Loading page partsdcardsel
+I:Loading page partsdcardcheck
+I:Loading page partsdcard
+I:Loading page htcdumlock
+I:Loading page repackselect
+I:Loading page repackconfirm
+I:Loading page lock
+I:Loading page filemanagerlist
+I:Loading page filemanageroptions
+I:Loading page choosedestinationfolder
+I:Loading page filemanagerrenamefile
+I:Loading page filemanagerrenamefolder
+I:Loading page filemanagerchmod
+I:Loading page filemanagerconfirm
+I:Loading page filemanageraction
+I:Loading page decrypt
+I:Loading page decrypt_pattern
+I:Loading page trydecrypt
+I:Loading page canceldecrypt
+I:Loading page terminalcommand
+I:Loading page fastboot
+I:Loading page sideload
+I:Loading page fixcontexts
+I:Loading page slideout
+I:Loading page select_storage
+I:Loading page select_language
+I:Loading page decrypt_users
+I:Loading page changeTwrpFolder
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Switching packages (TWRP)
+I:Startup Commands: 
+ro.boot.bootreason=rtc
+ro.boottime.adbd=3182268922
+ro.boottime.init=2565
+ro.boottime.init.selinux=70
+ro.boottime.init.cold_boot_wait=252
+ro.boottime.logd=3158708845
+ro.boottime.teed=3177449615
+ro.boottime.vendor.gatekeeper-1-0=3184423307
+ro.boottime.vendor.keymaster-4-0-trustkernel=3183246153
+ro.boottime.ueventd=2865467076
+ro.boottime.recovery=3180167384
+ro.boottime.trustkernel.twrp=3160425615
+ro.boottime.health-hal-2-0=3181168384
+ro.boottime.servicemanager=3153325615
+ro.boottime.hwservicemanager=3152472922
+ro.boottime.tee_check_keybox=3201192307
+ro.boottime.vndservicemanager=3154360461
+ro.config.ringtone=omni_ringtone1.ogg,omni_ringtone1.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.config.notification_sound=OnTheHunt.ogg
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.isa.arm.variant=generic
+dalvik.vm.isa.arm.features=default
+dalvik.vm.isa.arm64.variant=generic
+dalvik.vm.isa.arm64.features=default
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.usejit=true
+dalvik.vm.heapsize=512m
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.minidebuginfo=true
+dalvik.vm.appimageformat=lz4
+dalvik.vm.usejitprofiles=true
+dalvik.vm.heapgrowthlimit=384m
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
+dalvik.vm.dex2oat-minidebuginfo=true
+dalvik.vm.dex2oat-max-image-block-size=524288
+dalvik.vm.dex2oat-resolve-startup-strings=true
+debug.sf.disable_backpressure=1
+debug.atrace.tags.enableflags=0
+ro.sf.lcd_density=220
+ro.adb.secure=0
+ro.com.google.clientidbase=android-google
+ro.com.android.dataroaming=true
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
+ro.lmk.use_psi=false
+ro.lmk.kill_timeout_ms=100
+ro.lmk.kill_heaviest_task=true
+ro.lmk.use_minfree_levels=true
+ro.opa.eligible_device=true
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.apex.updatable=true
+ro.hwui.use_vulkan=
+ro.omni.device=Jelly2_TEE
+ro.omni.version=10-20210713-Jelly2_TEE-HOMEMADE
+ro.omni.version.security_patch=
+ro.twrp.boot=1
+ro.twrp.version=3.5.2_10-0
+ro.vndk.lite=true
+ro.vndk.version=29
+ro.wifi.channels=
+ro.allow.mock.location=0
+ro.board.platform=mt6771
+ro.build.id=QQ3A.200805.001
+ro.build.date=Tue Jul 13 09:53:06 EEST 2021
+ro.build.date.utc=1626159186
+ro.build.host=kbp1-lhp-A00378
+ro.build.tags=test-keys
+ro.build.type=userdebug
+ro.build.user=iivanov
+ro.build.wifi.ssid=Jelly2
+ro.build.flavor=omni_Jelly2_TEE-userdebug
+ro.build.display.id=omni_Jelly2_TEE-userdebug 10 QQ3A.200805.001 eng.iivano.20210713.095336 test-keys
+ro.build.product=Jelly2_TEE
+ro.build.selinux=1
+ro.build.version.sdk=29
+ro.build.version.base_os=
+ro.build.version.release=10
+ro.build.version.codename=REL
+ro.build.version.incremental=eng.iivano.20210713.095336
+ro.build.version.preview_sdk=0
+ro.build.version.all_codenames=REL
+ro.build.version.security_patch=2021-05-05
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.min_supported_target_sdk=23
+ro.build.bluetooth.name=Jelly2
+ro.build.wifip2pDN=Jelly2
+ro.build.description=Jelly2-user 10 QP1A.190711.020 root.20210417.155922 release-keys
+ro.build.characteristics=default
+ro.bionic.ld.warning=1
+ro.bionic.arch=arm64
+ro.bionic.2nd_arch=arm
+ro.bionic.cpu_variant=generic
+ro.bionic.2nd_cpu_variant=generic
+ro.iorapd.enable=false
+ro.secure=0
+ro.system.build.id=QQ3A.200805.001
+ro.system.build.date=Tue Jul 13 09:53:06 EEST 2021
+ro.system.build.date.utc=1626159186
+ro.system.build.tags=test-keys
+ro.system.build.type=userdebug
+ro.system.build.version.sdk=29
+ro.system.build.version.release=10
+ro.system.build.version.incremental=eng.iivano.20210713.095336
+ro.system.build.fingerprint=Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20210417.155922:user/release-keys
+ro.treble.enabled=false
+ro.zygote=zygote64_32
+ro.carrier=unknown
+ro.product.cpu.abi=arm64-v8a
+ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.product.cpu.abilist64=arm64-v8a
+ro.product.odm.name=omni_Jelly2_TEE
+ro.product.odm.brand=Unihertz
+ro.product.odm.model=Jelly2
+ro.product.odm.device=Jelly2_TEE
+ro.product.odm.manufacturer=Unihertz
+ro.product.name=omni_Jelly2_TEE
+ro.product.board=G55BoardV1
+ro.product.brand=Unihertz
+ro.product.model=Jelly2
+ro.product.device=Jelly2_TEE
+ro.product.locale=en-US
+ro.product.system.name=omni_Jelly2_TEE
+ro.product.system.brand=Unihertz
+ro.product.system.model=Jelly2
+ro.product.system.device=Jelly2_TEE
+ro.product.system.manufacturer=Unihertz
+ro.product.vendor.name=Jelly2
+ro.product.vendor.brand=Unihertz
+ro.product.vendor.model=Jelly2
+ro.product.vendor.device=Jelly2
+ro.product.vendor.manufacturer=Unihertz
+ro.product.manufacturer=Unihertz
+ro.product.first_api_level=29
+ro.baseband=unknown
+ro.bootmode=recovery
+ro.hardware=mt6771
+ro.opengles.version=196610
+ro.revision=0
+ro.services.whitelist.packagelist=com.google.android.gms
+ro.bootimage.build.date=Sat Apr 17 15:27:49 CST 2021
+ro.bootimage.build.date.utc=1618644469
+ro.bootimage.build.fingerprint=Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20210417.155922:user/release-keys
+ro.telephony.sim.count=2
+ro.telephony.default_network=10,10,10,10
+ro.telephony.iwlan_operation_mode=default
+ro.bootloader=unknown
+ro.debuggable=1
+ro.faceunlock.tee=trustkernel
+ro.modversion=OmniROM-10-20210713-Jelly2_TEE-HOMEMADE
+ro.postinstall.fstab.prefix=/system
+ro.setupwizard.enterprise_mode=1
+ro.surface_flinger.primary_display_orientation=0
+ro.property_service.version=2
+ro.control_privapp_permissions=enforce
+ro.actionable_compatible_property.enabled=false
+drm.service.enabled=true
+init.svc.adbd=restarting
+init.svc.logd=running
+init.svc.teed=running
+init.svc.ueventd=running
+init.svc.recovery=running
+init.svc.trustkernel.twrp=stopped
+init.svc.health-hal-2-0=running
+init.svc.servicemanager=running
+init.svc.hwservicemanager=running
+init.svc.tee_check_keybox=stopped
+init.svc.vndservicemanager=running
+twrp.crash_counter=0
+twrp.action_complete=0
+crypto.ready=1
+keyguard.no_require_sim=true
+telephony.lteOnCdmaDevice=1
+tombstoned.max_tombstone_count=50
+ro.boot.mode=recovery
+ro.boot.dtb_idx=0
+ro.boot.selinux=permissive
+ro.boot.dtbo_idx=0
+ro.boot.hardware=mt6771
+ro.boot.avb_version=1.1
+ro.boot.boot_devices=bootdevice,11230000.mmc
+ro.boot.meta_log_disable=0
+ro.boot.verifiedbootstate=orange
+ro.boot.dynamic_partitions=true
+sys.usb.ffs.aio_compat=1
+ro.build.fingerprint=Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20210417.155922:user/release-keys
+ro.gsid.image_running=0
+hwservicemanager.ready=true
+log.tag.stats_log=I
+persist.log.tag.AT=I
+persist.log.tag.VT=I
+persist.log.tag.RFX=I
+persist.log.tag.RIL=I
+persist.log.tag.RILC=I
+persist.log.tag.RILD=I
+persist.log.tag.Phone=I
+persist.log.tag.RP_DC=I
+persist.log.tag.RfxDT=I
+persist.log.tag.RfxSM=I
+persist.log.tag.RmcWp=I
+persist.log.tag.RtcDC=I
+persist.log.tag.RtcWp=I
+persist.log.tag.C2K_AT=I
+persist.log.tag.DC-C-1=I
+persist.log.tag.DC-C-2=I
+persist.log.tag.ImsApp=I
+persist.log.tag.MTKSST=D
+persist.log.tag.MwiRIL=I
+persist.log.tag.RIL-CC=I
+persist.log.tag.RIL-RP=I
+persist.log.tag.RP_DAC=I
+persist.log.tag.RP_IMS=I
+persist.log.tag.RtcIms=I
+persist.log.tag.RtcPhb=I
+persist.log.tag.WfoApp=I
+persist.log.tag.powerd=I
+persist.log.tag.DCT-C-0=I
+persist.log.tag.DCT-C-1=I
+persist.log.tag.DCT-I-0=I
+persist.log.tag.DCT-I-1=I
+persist.log.tag.DcFcMgr=I
+persist.log.tag.ImsCall=I
+persist.log.tag.ImsEcbm=I
+persist.log.tag.RIL-OEM=I
+persist.log.tag.RIL-PHB=I
+persist.log.tag.RIL-SIM=I
+persist.log.tag.RIL-SMS=I
+persist.log.tag.RILC-OP=I
+persist.log.tag.RILC-RP=I
+persist.log.tag.RILMUXD=I
+persist.log.tag.RIL_Mux=I
+persist.log.tag.RTC_DAC=I
+persist.log.tag.RfxRoot=I
+persist.log.tag.RmcCapa=I
+persist.log.tag.RtcCapa=I
+persist.log.tag.power@1.3-impl=I
+persist.log.tag.C2K_RILC=I
+persist.log.tag.IMS_RILA=I
+persist.log.tag.ImsPhone=I
+persist.log.tag.MtkSIMFH=I
+persist.log.tag.RIL-DATA=I
+persist.log.tag.RILC-MTK=I
+persist.log.tag.RfxTimer=I
+persist.log.tag.RpMDCtrl=I
+persist.log.tag.UiccCard=I
+persist.log.tag.AdnRecord=I
+persist.log.tag.CdmaMoSms=I
+persist.log.tag.CdmaMtSms=I
+persist.log.tag.MtkCsimFH=I
+persist.log.tag.MtkIsimFH=I
+persist.log.tag.MtkRuimFH=I
+persist.log.tag.MtkUsimFH=I
+persist.log.tag.PowerWrap=I
+persist.log.tag.RILMD2-SS=I
+persist.log.tag.RfxAction=I
+persist.log.tag.RfxObject=I
+persist.log.tag.RilClient=I
+persist.log.tag.RmcNwHdlr=D
+persist.log.tag.RmcPhbReq=I
+persist.log.tag.RmcPhbUrc=I
+persist.log.tag.RpFOUtils=I
+persist.log.tag.RtcNwCtrl=I
+persist.log.tag.UxUtility=I
+persist.log.tag.WORLDMODE=I
+persist.log.tag.CapaSwitch=I
+persist.log.tag.DSSelector=I
+persist.log.tag.ImsManager=I
+persist.log.tag.ImsService=I
+persist.log.tag.LIBC2K_RIL=I
+persist.log.tag.MtkFactory=I
+persist.log.tag.MtkSubCtrl=I
+persist.log.tag.RIL-Fusion=I
+persist.log.tag.RIL-Parcel=I
+persist.log.tag.RIL-Socket=I
+persist.log.tag.RfxFragEnc=I
+persist.log.tag.RfxIdToStr=I
+persist.log.tag.RfxMessage=I
+persist.log.tag.RfxOpUtils=I
+persist.log.tag.RilOpProxy=I
+persist.log.tag.RtcEmbmsAt=I
+persist.log.tag.SIMRecords=I
+persist.log.tag.mtkpower@1.0-impl=I
+persist.log.tag.GsmCdmaConn=I
+persist.log.tag.IccProvider=I
+persist.log.tag.IsimRecords=I
+persist.log.tag.MGsmSMSDisp=I
+persist.log.tag.MtkIccPHBIM=I
+persist.log.tag.MtkUiccCard=I
+persist.log.tag.MtkUiccCtrl=I
+persist.log.tag.NetAgent_IO=I
+persist.log.tag.RIL-Netlink=I
+persist.log.tag.RfxCloneMgr=I
+persist.log.tag.RfxRilUtils=I
+persist.log.tag.RfxSocketSM=I
+persist.log.tag.RmcDcCommon=I
+persist.log.tag.RmcEmbmsReq=I
+persist.log.tag.RmcEmbmsUrc=I
+persist.log.tag.RmcRadioReq=I
+persist.log.tag.RpRadioCtrl=I
+persist.log.tag.RtcModeCont=I
+persist.log.tag.SmsPlusCode=I
+persist.log.tag.SpnOverride=I
+persist.log.tag.VsimAdaptor=I
+persist.log.tag.libPowerHal=I
+persist.log.tag.C2K_ATConfig=I
+persist.log.tag.C2K_RIL-DATA=I
+persist.log.tag.ConSmsFwkExt=I
+persist.log.tag.DSSelectorOm=I
+persist.log.tag.GsmCdmaPhone=I
+persist.log.tag.IccCardProxy=I
+persist.log.tag.ImsEcbmProxy=I
+persist.log.tag.ImsPhoneBase=I
+persist.log.tag.ImsPhoneCall=I
+persist.log.tag.MSmsUsageMtr=I
+persist.log.tag.MtkAdnRecord=I
+persist.log.tag.MtkConSmsFwk=I
+persist.log.tag.NetworkStats=I
+persist.log.tag.PhoneFactory=I
+persist.log.tag.RadioManager=I
+persist.log.tag.RetryManager=I
+persist.log.tag.RfxDebugInfo=I
+persist.log.tag.RfxDisThread=I
+persist.log.tag.RfxIdToMsgId=I
+persist.log.tag.RfxStatusMgr=I
+persist.log.tag.RilMalClient=I
+persist.log.tag.RilOemClient=I
+persist.log.tag.RmcDcDefault=I
+persist.log.tag.RmcDcUtility=I
+persist.log.tag.RmcGsmSimUrc=I
+persist.log.tag.RmcNwReqHdlr=D
+persist.log.tag.RmcRatSwHdlr=D
+persist.log.tag.RtcEmbmsUtil=I
+persist.log.tag.RtcImsDialog=I
+persist.log.tag.RtcRadioCont=I
+persist.log.tag.RtcRatSwCtrl=D
+persist.log.tag.AutoRegSmsFwk=I
+persist.log.tag.IMSRILRequest=I
+persist.log.tag.ImsVTProvider=I
+persist.log.tag.MtkImsManager=I
+persist.log.tag.MtkImsService=I
+persist.log.tag.MtkSIMRecords=I
+persist.log.tag.MtkSmsManager=I
+persist.log.tag.MtkSmsMessage=I
+persist.log.tag.NetworkPolicy=I
+persist.log.tag.OperatorUtils=I
+persist.log.tag.RIL-SocListen=I
+persist.log.tag.RfxChannelMgr=I
+persist.log.tag.RfxController=I
+persist.log.tag.RfxHandlerMgr=I
+persist.log.tag.RfxMainThread=I
+persist.log.tag.RfxRilAdapter=I
+persist.log.tag.RfxTransUtils=I
+persist.log.tag.RmcCdmaSimUrc=I
+persist.log.tag.RmcCommSimReq=I
+persist.log.tag.RmcCommSimUrc=I
+persist.log.tag.RmcOemHandler=I
+persist.log.tag.RmcOpRadioReq=I
+persist.log.tag.RpCallControl=I
+persist.log.tag.RpCdmaOemCtrl=I
+persist.log.tag.SimSwitchOP01=I
+persist.log.tag.SimSwitchOP02=I
+persist.log.tag.SimSwitchOP18=I
+persist.log.tag.AdnRecordCache=I
+persist.log.tag.DSSelectorOP01=I
+persist.log.tag.DSSelectorOP02=I
+persist.log.tag.DSSelectorOP09=I
+persist.log.tag.DSSelectorOP18=I
+persist.log.tag.DSSelectorUtil=I
+persist.log.tag.DataDispatcher=I
+persist.log.tag.DataOnlySmsFwk=I
+persist.log.tag.ExternalSimMgr=I
+persist.log.tag.GsmCallTkrHlpr=I
+persist.log.tag.IccPhoneBookIM=I
+persist.log.tag.ImsCallProfile=I
+persist.log.tag.ImsCallSession=I
+persist.log.tag.MSimSmsIStatus=I
+persist.log.tag.MSmsStorageMtr=I
+persist.log.tag.MtkGsmCdmaConn=I
+persist.log.tag.MtkIccProvider=I
+persist.log.tag.MtkPhoneNotifr=I
+persist.log.tag.MtkSmsCbHeader=I
+persist.log.tag.MtkSpnOverride=I
+persist.log.tag.MtkUiccCardApp=I
+persist.log.tag.Mtk_RIL_ImsSms=I
+persist.log.tag.RIL_UIM_SOCKET=I
+persist.log.tag.RfxContFactory=I
+persist.log.tag.RmcNwRTReqHdlr=D
+persist.log.tag.RpAudioControl=I
+persist.log.tag.RpModemMessage=I
+persist.log.tag.RpRadioMessage=I
+persist.log.tag.RtcCommSimCtrl=I
+persist.log.tag.SlotQueueEntry=I
+persist.log.tag.UiccController=I
+persist.log.tag.legacy_power@2.1-impl=I
+persist.log.tag.mtkperf_client=I
+persist.log.tag.AdnRecordLoader=I
+persist.log.tag.AirplaneHandler=I
+persist.log.tag.CountryDetector=I
+persist.log.tag.DupSmsFilterExt=I
+persist.log.tag.ImsBaseCommands=I
+persist.log.tag.IsimFileHandler=I
+persist.log.tag.MtkDupSmsFilter=I
+persist.log.tag.MtkEmbmsAdaptor=I
+persist.log.tag.MtkIccCardProxy=I
+persist.log.tag.MtkIccSmsIntMgr=I
+persist.log.tag.MtkRecordLoader=I
+persist.log.tag.MtkRetryManager=I
+persist.log.tag.NetAgentService=I
+persist.log.tag.NetLnkEventHdlr=I
+persist.log.tag.PowerHalMgrImpl=I
+persist.log.tag.ProxyController=I
+persist.log.tag.RfxDefDestUtils=I
+persist.log.tag.RfxMclDisThread=I
+persist.log.tag.RfxMclMessenger=I
+persist.log.tag.RfxMclStatusMgr=I
+persist.log.tag.RmcCommSimOpReq=I
+persist.log.tag.RmcDcPdnManager=I
+persist.log.tag.RmcDcReqHandler=I
+persist.log.tag.RmcImsCtlReqHdl=I
+persist.log.tag.RmcImsCtlUrcHdl=I
+persist.log.tag.RpCdmaRadioCtrl=I
+persist.log.tag.RpMalController=I
+persist.log.tag.RpPhbController=I
+persist.log.tag.RpRilClientCtrl=I
+persist.log.tag.RpSimController=I
+persist.log.tag.MtkPhoneSwitcher=D
+persist.log.tag.RmcGsmSimRequest=I
+persist.log.tag.RtcImsConference=I
+persist.log.tag.RmcCdmaSimRequest=I
+persist.log.tag.MtkPhoneNumberUtils=I
+persist.log.tag.PowerHalWifiMonitor=I
+persist.log.tag.PowerHalAddressUitls=I
+persist.log.tag.PowerHalMgrServiceImpl=I
+persist.log.tag.RmcEccNumberUrcHandler=D
+persist.log.tag.RtcEccNumberController=D
+persist.log.tag.RpPhoneNumberController=D
+persist.log.tag.CarrierExpressServiceImpl=I
+persist.log.tag.PhoneConfigurationSettings=I
+persist.log.tag.CarrierExpressServiceImplExt=I
+ro.logd.size.stats=64K
+persist.debug.dalvik.vm.core_platform_api_policy=just-warn
+ro.persistent_properties.ready=true
+pm.dexopt.boot=verify
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.shared=speed
+pm.dexopt.install=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.first-boot=quicken
+persist.radio.multisim.config=dsds
+ro.boot.serialno=JELLY2J000000820
+ro.serialno=JELLY2J000000820
+service.adb.root=1
+security.perf_harden=1
+dev.mnt.blk.mnt.vendor.apd=sdc
+dev.mnt.blk.mnt.vendor.nvcfg=sdc
+dev.mnt.blk.mnt.vendor.nvdata=sdc
+dev.mnt.blk.mnt.vendor.persist=sdc
+dev.mnt.blk.mnt.vendor.protect_f=sdc
+dev.mnt.blk.mnt.vendor.protect_s=sdc
+net.bt.name=Android
+net.tethering.noprovisioning=true
+sys.usb.controller=musb-hdrc
+persist.sys.usb.config=mtp,adb
+persist.sys.dalvik.vm.lib.2=libart.so
+persist.sys.disable_rescue=true
+persist.service.adb.enable=1
+persist.service.debuggable=1
+sys.usb.config=adb
+sys.usb.configfs=1
+ro.odm.build.id=QQ3A.200805.001
+ro.odm.build.date=Tue Jul 13 09:53:06 EEST 2021
+ro.odm.build.date.utc=1626159186
+ro.odm.build.tags=test-keys
+ro.odm.build.type=userdebug
+ro.odm.build.version.sdk=29
+ro.odm.build.version.release=10
+ro.odm.build.version.incremental=eng.iivano.20210713.095336
+ro.odm.build.fingerprint=Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20210417.155922:user/release-keys
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.vendor.mtk.bt_sap_enable=true
+ro.vendor.wfd.dummy.enable=1
+ro.vendor.wfd.iframesize.level=0
+ro.vendor.wifi.sap.interface=ap0
+ro.vendor.wlan.gen=gen3
+ro.vendor.build.id=QP1A.190711.020
+ro.vendor.build.date=Sat Apr 17 15:27:49 CST 2021
+ro.vendor.build.date.utc=1618644469
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=user
+ro.vendor.build.version.sdk=29
+ro.vendor.build.version.release=10
+ro.vendor.build.version.incremental=root.20210417.155922
+ro.vendor.build.fingerprint=Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20210417.155922:user/release-keys
+ro.vendor.build.real_version=Jelly2_20210519_1052
+ro.vendor.build.custom_version=Jelly2_20210519_1052
+ro.vendor.build.security_patch=2021-05-05
+ro.vendor.radio.max.multisim=dsds
+ro.vendor.mtk_nn.option=E,F,Z
+ro.vendor.camera3.zsl.default=140
+ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist64=arm64-v8a
+ro.vendor.mediatek.version.branch=alps-mp-q0.mp1
+ro.vendor.mediatek.version.release=alps-mp-q0.mp1-V9.282
+ro.vendor.mediatek.platform=MT6771
+ro.vendor.md_prop_ver=1
+ro.vendor.mtk_ps1_rat=C/Lf/Lt/W/T/G
+ro.vendor.mtk_agps_app=1
+ro.vendor.mtk_ril_mode=c6m_1rild
+ro.vendor.mtk_uicc_clf=1
+ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_fd_support=1
+ro.vendor.mtk_pq_support=2
+ro.vendor.ap_info_monitor=0
+ro.vendor.mtk_aal_support=1
+ro.vendor.mtk_c2k_support=1
+ro.vendor.mtk_data_config=1
+ro.vendor.mtk_f2fs_enable=0
+ro.vendor.mtk_gps_support=1
+ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_md1_support=12
+ro.vendor.mtk_ufs_support=1
+ro.vendor.mtk_wfd_support=1
+ro.vendor.num_md_protocol=2
+ro.vendor.mtk_c2k_lte_mode=2
+ro.vendor.mtk_emmc_support=1
+ro.vendor.mtk_log_hide_gps=0
+ro.vendor.mtk_wapi_support=1
+ro.vendor.sim_me_lock_mode=0
+ro.vendor.have_aeev_feature=1
+ro.vendor.md_auto_setup_ims=1
+ro.vendor.mtk_embms_support=1
+ro.vendor.mtk_pq_color_mode=1
+ro.vendor.mtk_rild_read_imsi=1
+ro.vendor.mtk_zsdhdr_support=1
+ro.vendor.md_log_memdump_wait=15
+ro.vendor.mtk_wappush_support=1
+ro.vendor.app_resolution_tuner=1
+ro.vendor.mtk_exchange_support=1
+ro.vendor.mtk_audio_ape_support=1
+ro.vendor.mtk_nfc_addon_support=1
+ro.vendor.mtk_audio_alac_support=1
+ro.vendor.mtk_camera_app_version=3
+ro.vendor.mtk_nn_quant_preferred=1
+ro.vendor.mtk_world_phone_policy=0
+ro.vendor.mtk_besloudness_support=1
+ro.vendor.mtk_slow_motion_support=1
+ro.vendor.mtk_blulight_def_support=1
+ro.vendor.mtk_config_max_dram_size=0x800000000
+ro.vendor.mtk_protocol1_rat_config=C/Lf/Lt/W/T/G
+ro.vendor.mtk_audio_tuning_tool_ver=V2.2
+ro.vendor.mtk_md_world_mode_support=1
+ro.vendor.mtk_modem_monitor_support=1
+ro.vendor.sim_refresh_reset_by_modem=1
+ro.vendor.mtk_external_sim_only_slots=0
+ro.vendor.mtk_privacy_protection_lock=1
+ro.vendor.mtk_widevine_drm_l3_support=1
+ro.vendor.mtk_sim_hot_swap_common_slot=1
+ro.vendor.mtk_single_bin_modem_support=1
+ro.hardware.egl=mali
+init.svc.vendor.gatekeeper-1-0=running
+init.svc.vendor.keymaster-4-0-trustkernel=running
+vendor.mtk.vdec.waitkeyframeforplay=9
+vendor.usb.vid=0x0E8D
+vendor.usb.controller=musb-hdrc
+vendor.camera.mdp.cz.enable=1
+vendor.camera.mdp.dre.enable=1
+vendor.connsys.driver.ready=no
+vendor.trustkernel.fs.mode=3
+vendor.trustkernel.fs.state=ready
+vendor.trustkernel.ifaa.deployed=false
+vendor.trustkernel.ready=true
+vendor.trustkernel.soter.deployed=false
+vendor.trustkernel.keybox.deployed=false
+vendor.trustkernel.productionline.state=none
+persist.vendor.log.tel_log_ctrl=1
+persist.vendor.mtk.volte.enable=1
+persist.vendor.radio.fd.r8.counter=150
+persist.vendor.radio.fd.off.r8.counter=50
+persist.vendor.radio.fd.off.counter=50
+persist.vendor.radio.fd.counter=150
+persist.vendor.radio.smart.data.switch=1
+persist.vendor.radio.msimmode=dsds
+persist.vendor.radio.flashless.fsm=0
+persist.vendor.radio.flashless.fsm_rw=0
+persist.vendor.radio.flashless.fsm_cst=0
+persist.vendor.radio.mtk_ps2_rat=L/W/G
+persist.vendor.radio.mtk_ps3_rat=G
+persist.vendor.radio.mtk_dsbp_support=1
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.fdyuv=6
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=8
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.lcso=8
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rrzo=8
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rsso=8
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.fdyuv=8
+persist.vendor.camera3.pipeline.bufnum.base.imgo=5
+persist.vendor.camera3.pipeline.bufnum.base.lcso=5
+persist.vendor.camera3.pipeline.bufnum.base.rrzo=5
+persist.vendor.camera3.pipeline.bufnum.base.rsso=5
+persist.vendor.connsys.patch.version=-1
+persist.vendor.connsys.chipid=-1
+persist.vendor.connsys.dynamic.dump=0
+persist.vendor.connsys.fm_chipid=mt6631
+persist.vendor.ims_support=1
+persist.vendor.mims_support=2
+persist.vendor.vilte_support=1
+persist.vendor.volte_support=1
+persist.vendor.viwifi_support=1
+persist.vendor.mtk_wfc_support=1
+persist.vendor.mtk_ct_volte_support=2
+persist.vendor.mtk_sim_switch_policy=2
+persist.vendor.mtk_dynamic_ims_switch=1
+ro.crypto.type=file
+ro.crypto.state=encrypted
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+=> Linking mtab
+=> Processing /etc/twrp.fstab
+I:Reading /etc/twrp.fstab
+I:Processing '/system_root'
+I:Created '/system_root' folder.
+I:Processing '/system_image'
+I:Processing '/vendor'
+I:Processing '/vendor_image'
+I:Processing '/product'
+I:Created '/product' folder.
+I:Processing '/product_image'
+I:Processing '/md_udc'
+I:Processing '/metadata'
+I:Processing '/data'
+I:FBE contents 'aes-256-xts', filenames ''
+I:Processing '/boot'
+I:Processing '/dtbo'
+I:Processing '/cache'
+I:Processing '/recovery'
+I:Processing '/persist'
+I:Created '/persist' folder.
+I:Processing '/persist_image'
+I:Processing '/vbmet'
+I:Processing '/vbmeta_system'
+I:Processing '/vbmeta_vendor'
+I:Processing '/bootloader'
+I:Processing '/bootloader2'
+I:Processing '/logo'
+I:Processing '/misc'
+I:Processing '/expdb'
+I:Processing '/seccfg'
+I:Processing '/boot_para'
+I:Processing '/proinfo'
+I:Processing '/apd'
+I:Processing '/nvcfg'
+I:Created '/nvcfg' folder.
+I:Processing '/nvdata'
+I:Created '/nvdata' folder.
+I:Processing '/nvram'
+I:Processing '/protect_f'
+I:Created '/protect_f' folder.
+I:Processing '/protect_s'
+I:Created '/protect_s' folder.
+I:Processing '/tee1'
+I:Processing '/tee2'
+I:Processing '/persistent'
+I:Processing '/gz1'
+I:Processing '/gz2'
+I:Processing '/md1img'
+I:Processing '/scp1'
+I:Processing '/scp2'
+I:Processing '/cam_vpu1'
+I:Processing '/cam_vpu2'
+I:Processing '/cam_vpu3'
+I:Processing '/spmfw'
+I:Processing '/sspm_1'
+I:Processing '/sspm_2'
+I:Processing '/external_sd'
+I:Created '/external_sd' folder.
+I:Processing '/usbotg'
+I:Created '/usbotg' folder.
+I:Done processing fstab files
+I:Trying to prepare system from super partition
+I:Trying to prepare system_image from super partition
+I:unable to update logical partition: /system_image
+I:Trying to prepare vendor from super partition
+I:Trying to prepare vendor_image from super partition
+I:unable to update logical partition: /vendor_image
+I:Trying to prepare product from super partition
+I:Trying to prepare product_image from super partition
+I:unable to update logical partition: /product_image
+I:Setting up '/data' as data/media emulated storage.
+I:/system/bin/mount -o bind '/data/media' '/sdcard' process ended with RC=0
+I:/system/bin/mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:File Based Encryption is present
+Starting TWRP 3.5.2_10-0-b76ca98e on Wed Aug 18 05:11:03 2021
+ (pid 361)
+I:=> product model: 'Jelly2'
+I:=> using device id: 'Jelly2'
+RECOVERY_SDCARD_ON_DATA := true
+I:Lun file '/sys/class/android_usb/android0/f_mass_storage/lun0/file' does not exist, USB storage mode disabled
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+TW_INCLUDE_CRYPTO := true
+I:TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:Will use a second brightness file at '/sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:LANG: en
+Starting the UI...
+Skipping adf graphics -- not present in build tree
+cannot find/open a drm device: No such file or directory
+fb0 reports (possibly inaccurate):
+  vi.bits_per_pixel = 32
+  vi.red.offset   =   0   .length =   8
+  vi.green.offset =   8   .length =   8
+  vi.blue.offset  =  16   .length =   8
+setting GGL_PIXEL_FORMAT_RGBA_8888
+double buffered
+framebuffer: 3 (480 x 854)
+Using fbdev graphics.
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+TW_SCREEN_BLANK_ON_BOOT := true
+I:TWFunc::Set_Brightness: Setting brightness control to 0
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 0
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.000000x and height 1.067500x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page splash
+I:Switching packages (splash)
+I:minui: /sys/board_properties/virtualkeys.mtk-tpd is 1 % 6
+I:Loading package: TWRP (/TWRP/theme/ui.zip)
+I:Loading zip theme
+I:Loading package: TWRP (/twres/ui.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/uk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/tr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sv.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/ru.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_PT.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_BR.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/nl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/it.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/id.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/hu.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/fr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/es.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/el.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/de.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/cz.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:PageManager::LoadFileToBuffer loading filename: '/twres/ui.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.000000x and height 1.067500x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Failed to load image from indeterminate013, error -1
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Including file: /twres/portrait.xml...
+I:PageManager::LoadFileToBuffer loading filename: '/twres/portrait.xml' directly
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page main
+I:Loading page main2
+I:Loading page install
+I:Loading page flash_confirm
+I:Loading page flash_zip
+I:Loading page flash_done
+I:Loading page flash_sleep_and_reboot
+I:Loading page flashimage_confirm
+I:Loading page clear_vars
+I:Loading page reboot_system_routine
+I:Loading page confirm_action
+I:Loading page action_page
+I:Loading page singleaction_page
+I:Loading page action_complete
+I:Loading page filecheck
+I:Loading page rebootcheck
+I:Loading page wipe
+I:Loading page advancedwipe
+I:Loading page formatdata
+I:Loading page formatdata_confirm
+I:Loading page checkpartitionlist
+I:Loading page partitionoptions
+I:Loading page refreshfilesystem
+I:Loading page selectfilesystem
+I:Loading page backup
+I:Loading page multiuser_warning
+I:Loading page backup_options
+I:Loading page backupname1
+I:Loading page backupname2
+I:Loading page backupencryption
+I:Loading page backupencryption2
+I:Loading page checkbackuppassword
+I:Loading page backup_run
+I:Loading page restore
+I:Unable to open '//TWRP/BACKUPS/Jelly2'
+I:Loading page restore_read
+I:Loading page restore_decrypt
+I:Loading page try_restore_decrypt
+I:Loading page restore_select
+I:Loading page renamebackup
+I:Loading page restore_run
+I:Loading page mount
+I:Loading page usb_mount
+I:Loading page usb_umount
+I:Loading page system_readonly_check
+I:Loading page fastbootreboot
+I:Loading page reboot
+I:Loading page reboot2
+I:Loading page installapp
+I:Loading page system_readonly
+I:Loading page settings
+I:Loading page settings_timezone
+I:Loading page settings_screen
+I:Loading page settings_vibration
+I:Loading page settings_language
+I:Loading page copylog
+I:Loading page advanced
+I:Loading page partsdcardsel
+I:Loading page partsdcardcheck
+I:Loading page partsdcard
+I:Loading page htcdumlock
+I:Loading page repackselect
+I:Loading page repackconfirm
+I:Loading page lock
+I:Loading page filemanagerlist
+I:Loading page filemanageroptions
+I:Loading page choosedestinationfolder
+I:Loading page filemanagerrenamefile
+I:Loading page filemanagerrenamefolder
+I:Loading page filemanagerchmod
+I:Loading page filemanagerconfirm
+I:Loading page filemanageraction
+I:Loading page decrypt
+I:Loading page decrypt_pattern
+I:Loading page trydecrypt
+I:Loading page canceldecrypt
+I:Loading page terminalcommand
+I:Loading page fastboot
+I:Loading page sideload
+I:Loading page fixcontexts
+I:Loading page slideout
+I:Loading page select_storage
+I:Loading page select_language
+I:Loading page decrypt_users
+I:Loading page changeTwrpFolder
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Switching packages (TWRP)
+I:Startup Commands: 
+twrp.crash_counter=1
+=> Linking mtab
+=> Processing /etc/twrp.fstab
+I:Reading /etc/twrp.fstab
+I:Processing '/system_root'
+I:Processing '/system_image'
+I:Processing '/vendor'
+I:Processing '/vendor_image'
+I:Processing '/product'
+I:Processing '/product_image'
+I:Processing '/md_udc'
+I:Processing '/metadata'
+I:Processing '/data'
+I:FBE contents 'aes-256-xts', filenames ''
+I:Processing '/boot'
+I:Processing '/dtbo'
+I:Processing '/cache'
+I:Processing '/recovery'
+I:Processing '/persist'
+I:Processing '/persist_image'
+I:Processing '/vbmet'
+I:Processing '/vbmeta_system'
+I:Processing '/vbmeta_vendor'
+I:Processing '/bootloader'
+I:Processing '/bootloader2'
+I:Processing '/logo'
+I:Processing '/misc'
+I:Processing '/expdb'
+I:Processing '/seccfg'
+I:Processing '/boot_para'
+I:Processing '/proinfo'
+I:Processing '/apd'
+I:Processing '/nvcfg'
+I:Processing '/nvdata'
+I:Processing '/nvram'
+I:Processing '/protect_f'
+I:Processing '/protect_s'
+I:Processing '/tee1'
+I:Processing '/tee2'
+I:Processing '/persistent'
+I:Processing '/gz1'
+I:Processing '/gz2'
+I:Processing '/md1img'
+I:Processing '/scp1'
+I:Processing '/scp2'
+I:Processing '/cam_vpu1'
+I:Processing '/cam_vpu2'
+I:Processing '/cam_vpu3'
+I:Processing '/spmfw'
+I:Processing '/sspm_1'
+I:Processing '/sspm_2'
+I:Processing '/external_sd'
+I:Processing '/usbotg'
+I:Done processing fstab files
+I:Trying to prepare system from super partition
+I:Trying to prepare system_image from super partition
+I:unable to update logical partition: /system_image
+I:Trying to prepare vendor from super partition
+I:Trying to prepare vendor_image from super partition
+I:unable to update logical partition: /vendor_image
+I:Trying to prepare product from super partition
+I:Trying to prepare product_image from super partition
+I:unable to update logical partition: /product_image
+I:Setting up '/data' as data/media emulated storage.
+I:/system/bin/mount -o bind '/data/media' '/sdcard' process ended with RC=0
+I:/system/bin/mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:File Based Encryption is present
+Starting TWRP 3.5.2_10-0-b76ca98e on Wed Aug 18 05:11:08 2021
+ (pid 380)
+I:=> product model: 'Jelly2'
+I:=> using device id: 'Jelly2'
+RECOVERY_SDCARD_ON_DATA := true
+I:Lun file '/sys/class/android_usb/android0/f_mass_storage/lun0/file' does not exist, USB storage mode disabled
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+TW_INCLUDE_CRYPTO := true
+I:TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:Will use a second brightness file at '/sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:LANG: en
+Starting the UI...
+Skipping adf graphics -- not present in build tree
+cannot find/open a drm device: No such file or directory
+fb0 reports (possibly inaccurate):
+  vi.bits_per_pixel = 32
+  vi.red.offset   =   0   .length =   8
+  vi.green.offset =   8   .length =   8
+  vi.blue.offset  =  16   .length =   8
+setting GGL_PIXEL_FORMAT_RGBA_8888
+double buffered
+framebuffer: 3 (480 x 854)
+Using fbdev graphics.
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+TW_SCREEN_BLANK_ON_BOOT := true
+I:TWFunc::Set_Brightness: Setting brightness control to 0
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 0
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.000000x and height 1.067500x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page splash
+I:Switching packages (splash)
+I:minui: /sys/board_properties/virtualkeys.mtk-tpd is 1 % 6
+I:Loading package: TWRP (/TWRP/theme/ui.zip)
+I:Loading zip theme
+I:Loading package: TWRP (/twres/ui.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/uk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/tr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sv.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/ru.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_PT.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_BR.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/nl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/it.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/id.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/hu.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/fr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/es.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/el.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/de.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/cz.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:PageManager::LoadFileToBuffer loading filename: '/twres/ui.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.000000x and height 1.067500x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Failed to load image from indeterminate013, error -1
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Including file: /twres/portrait.xml...
+I:PageManager::LoadFileToBuffer loading filename: '/twres/portrait.xml' directly
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page main
+I:Loading page main2
+I:Loading page install
+I:Loading page flash_confirm
+I:Loading page flash_zip
+I:Loading page flash_done
+I:Loading page flash_sleep_and_reboot
+I:Loading page flashimage_confirm
+I:Loading page clear_vars
+I:Loading page reboot_system_routine
+I:Loading page confirm_action
+I:Loading page action_page
+I:Loading page singleaction_page
+I:Loading page action_complete
+I:Loading page filecheck
+I:Loading page rebootcheck
+I:Loading page wipe
+I:Loading page advancedwipe
+I:Loading page formatdata
+I:Loading page formatdata_confirm
+I:Loading page checkpartitionlist
+I:Loading page partitionoptions
+I:Loading page refreshfilesystem
+I:Loading page selectfilesystem
+I:Loading page backup
+I:Loading page multiuser_warning
+I:Loading page backup_options
+I:Loading page backupname1
+I:Loading page backupname2
+I:Loading page backupencryption
+I:Loading page backupencryption2
+I:Loading page checkbackuppassword
+I:Loading page backup_run
+I:Loading page restore
+I:Unable to open '//TWRP/BACKUPS/Jelly2'
+I:Loading page restore_read
+I:Loading page restore_decrypt
+I:Loading page try_restore_decrypt
+I:Loading page restore_select
+I:Loading page renamebackup
+I:Loading page restore_run
+I:Loading page mount
+I:Loading page usb_mount
+I:Loading page usb_umount
+I:Loading page system_readonly_check
+I:Loading page fastbootreboot
+I:Loading page reboot
+I:Loading page reboot2
+I:Loading page installapp
+I:Loading page system_readonly
+I:Loading page settings
+I:Loading page settings_timezone
+I:Loading page settings_screen
+I:Loading page settings_vibration
+I:Loading page settings_language
+I:Loading page copylog
+I:Loading page advanced
+I:Loading page partsdcardsel
+I:Loading page partsdcardcheck
+I:Loading page partsdcard
+I:Loading page htcdumlock
+I:Loading page repackselect
+I:Loading page repackconfirm
+I:Loading page lock
+I:Loading page filemanagerlist
+I:Loading page filemanageroptions
+I:Loading page choosedestinationfolder
+I:Loading page filemanagerrenamefile
+I:Loading page filemanagerrenamefolder
+I:Loading page filemanagerchmod
+I:Loading page filemanagerconfirm
+I:Loading page filemanageraction
+I:Loading page decrypt
+I:Loading page decrypt_pattern
+I:Loading page trydecrypt
+I:Loading page canceldecrypt
+I:Loading page terminalcommand
+I:Loading page fastboot
+I:Loading page sideload
+I:Loading page fixcontexts
+I:Loading page slideout
+I:Loading page select_storage
+I:Loading page select_language
+I:Loading page decrypt_users
+I:Loading page changeTwrpFolder
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Switching packages (TWRP)
+I:Startup Commands: 
+twrp.crash_counter=2
+=> Linking mtab
+=> Processing /etc/twrp.fstab
+I:Reading /etc/twrp.fstab
+I:Processing '/system_root'
+I:Processing '/system_image'
+I:Processing '/vendor'
+I:Processing '/vendor_image'
+I:Processing '/product'
+I:Processing '/product_image'
+I:Processing '/md_udc'
+I:Processing '/metadata'
+I:Processing '/data'
+I:FBE contents 'aes-256-xts', filenames ''
+I:Processing '/boot'
+I:Processing '/dtbo'
+I:Processing '/cache'
+I:Processing '/recovery'
+I:Processing '/persist'
+I:Processing '/persist_image'
+I:Processing '/vbmet'
+I:Processing '/vbmeta_system'
+I:Processing '/vbmeta_vendor'
+I:Processing '/bootloader'
+I:Processing '/bootloader2'
+I:Processing '/logo'
+I:Processing '/misc'
+I:Processing '/expdb'
+I:Processing '/seccfg'
+I:Processing '/boot_para'
+I:Processing '/proinfo'
+I:Processing '/apd'
+I:Processing '/nvcfg'
+I:Processing '/nvdata'
+I:Processing '/nvram'
+I:Processing '/protect_f'
+I:Processing '/protect_s'
+I:Processing '/tee1'
+I:Processing '/tee2'
+I:Processing '/persistent'
+I:Processing '/gz1'
+I:Processing '/gz2'
+I:Processing '/md1img'
+I:Processing '/scp1'
+I:Processing '/scp2'
+I:Processing '/cam_vpu1'
+I:Processing '/cam_vpu2'
+I:Processing '/cam_vpu3'
+I:Processing '/spmfw'
+I:Processing '/sspm_1'
+I:Processing '/sspm_2'
+I:Processing '/external_sd'
+I:Processing '/usbotg'
+I:Done processing fstab files
+I:Trying to prepare system from super partition
+I:df /system_root > /tmp/dfoutput.txt process ended with RC=0
+I:Trying to prepare system_image from super partition
+I:unable to update logical partition: /system_image
+I:Trying to prepare vendor from super partition
+I:df /vendor > /tmp/dfoutput.txt process ended with RC=0
+I:Trying to prepare vendor_image from super partition
+I:unable to update logical partition: /vendor_image
+I:Trying to prepare product from super partition
+I:df /product > /tmp/dfoutput.txt process ended with RC=0
+I:Trying to prepare product_image from super partition
+I:unable to update logical partition: /product_image
+I:Unable to unmount '/data'
+I:Setting up '/data' as data/media emulated storage.
+I:Setting up '/data' as data/media emulated storage.
+I:Recreating /data/media folder.
+Failed to unmount '/data' (Invalid argument)
+I:Recreating /cache/recovery folder
+Failed to unmount '/vendor' (Invalid argument)
+Failed to unmount '/system_root' (Invalid argument)
+I:No recovery folder found. Using default folder.
+I:Backup folder set to '/data/media/TWRP/BACKUPS/Jelly2'
+I:Settings storage is '/data/media'
+I:Decrypt adopted storage starting
+I:PageManager::LoadFileToBuffer loading filename: '/data/system/storage.xml' directly
+I:No /data/system/storage.xml for adopted storage
+/super | /dev/block/by-name/super | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Alternate_Block_Device: /dev/block/by-name/super
+   Display_Name: super
+   Backup_Path: /super
+   Backup_Name: super
+   Backup_Display_Name: Super (Product, Vendor, System)
+   Current_File_System: emmc
+   Backup_Method: dd
+
+I:Unmounting main partitions...
+I:Unable to unmount '/vendor'
+Failed to unmount '/system_root' (Invalid argument)
+I:Unable to unmount '/product'
+
+
+Partition Logs:
+/system_root | /dev/block/dm-1 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted IsPresent Mount_Read_Only 
+   Primary_Block_Device: /dev/block/dm-1
+   Display_Name: System
+   Storage_Name: System
+   Backup_Path: /system_root
+   Backup_Name: system
+   Backup_Display_Name: System
+   Storage_Path: /system_root
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/system_image | /dev/block/dm-1 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/dm-1
+   Display_Name: System Image
+   Storage_Name: System Image
+   Backup_Path: /system_image
+   Backup_Name: system_image
+   Backup_Display_Name: System Image
+   Storage_Path: /system_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vendor | /dev/block/dm-2 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted IsPresent Mount_Read_Only 
+   Primary_Block_Device: /dev/block/dm-2
+   Display_Name: Vendor
+   Storage_Name: Vendor
+   Backup_Path: /vendor
+   Backup_Name: vendor
+   Backup_Display_Name: Vendor
+   Storage_Path: /vendor
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/vendor_image | /dev/block/dm-2 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/dm-2
+   Display_Name: Vendor Image
+   Storage_Name: Vendor Image
+   Backup_Path: /vendor_image
+   Backup_Name: vendor_image
+   Backup_Display_Name: Vendor Image
+   Storage_Path: /vendor_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/product | /dev/block/dm-0 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted IsPresent Mount_Read_Only 
+   Primary_Block_Device: /dev/block/dm-0
+   Display_Name: Product
+   Storage_Name: Product
+   Backup_Path: /product
+   Backup_Name: Product
+   Backup_Display_Name: Product
+   Storage_Path: /product
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/product_image | /dev/block/dm-0 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/dm-0
+   Display_Name: Product Image
+   Storage_Name: Product Image
+   Backup_Path: /product_image
+   Backup_Name: product_image
+   Backup_Display_Name: Product Image
+   Storage_Path: /product_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/md_udc | /dev/block/sdc11 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc11
+   Display_Name: md_udc
+   Storage_Name: md_udc
+   Backup_Path: /md_udc
+   Backup_Name: md_udc
+   Backup_Display_Name: md_udc
+   Storage_Path: /md_udc
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/metadata | /dev/block/sdc12 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc12
+   Display_Name: metadata
+   Storage_Name: metadata
+   Backup_Path: /metadata
+   Backup_Name: metadata
+   Backup_Display_Name: metadata
+   Storage_Path: /metadata
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/data | /dev/block/sdc41 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent Can_Be_Encrypted Is_Encrypted Is_Decrypted Has_Data_Media Can_Encrypt_Backup Use_Userdata_Encryption Is_Storage Is_Settings_Storage 
+   Symlink_Path: /data/media
+   Symlink_Mount_Point: /sdcard
+   Primary_Block_Device: /dev/block/sdc41
+   Display_Name: Data
+   Storage_Name: Internal Storage
+   Backup_Path: /data
+   Backup_Name: data
+   Backup_Display_Name: Data
+   Storage_Path: /data/media
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+   MTP_Storage_ID: 65537
+
+/boot | /dev/block/sdc33 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc33
+   Display_Name: Boot
+   Storage_Name: Boot
+   Backup_Path: /boot
+   Backup_Name: boot
+   Backup_Display_Name: Boot
+   Storage_Path: /boot
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/dtbo | /dev/block/sdc35 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc35
+   Display_Name: Dtbo
+   Storage_Name: Dtbo
+   Backup_Path: /dtbo
+   Backup_Name: dtbo
+   Backup_Display_Name: Dtbo
+   Storage_Path: /dtbo
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/cache | /dev/block/sdc39 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent 
+   Primary_Block_Device: /dev/block/sdc39
+   Display_Name: Cache
+   Storage_Name: Cache
+   Backup_Path: /cache
+   Backup_Name: cache
+   Backup_Display_Name: Cache
+   Storage_Path: /cache
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/recovery | /dev/block/sdc2 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc2
+   Display_Name: Recovery
+   Storage_Name: Recovery
+   Backup_Path: /recovery
+   Backup_Name: recovery
+   Backup_Display_Name: Recovery
+   Storage_Path: /recovery
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/persist | /dev/block/sdc16 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped IsPresent 
+   Primary_Block_Device: /dev/block/sdc16
+   Display_Name: Persist
+   Storage_Name: Persist
+   Backup_Path: /persist
+   Backup_Name: persist
+   Backup_Display_Name: Persist
+   Storage_Path: /persist
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/persist_image | /dev/block/sdc16 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc16
+   Display_Name: Persist Image
+   Storage_Name: Persist Image
+   Backup_Path: /persist_image
+   Backup_Name: persist_image
+   Backup_Display_Name: Persist Image
+   Storage_Path: /persist_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vbmet | /dev/block/sdc6 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc6
+   Display_Name: Vbmeta
+   Storage_Name: Vbmeta
+   Backup_Path: /vbmet
+   Backup_Name: vbmet
+   Backup_Display_Name: Vbmeta
+   Storage_Path: /vbmet
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vbmeta_system | /dev/block/sdc7 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc7
+   Display_Name: Vbmeta System
+   Storage_Name: Vbmeta System
+   Backup_Path: /vbmeta_system
+   Backup_Name: vbmeta_system
+   Backup_Display_Name: Vbmeta System
+   Storage_Path: /vbmeta_system
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vbmeta_vendor | /dev/block/sdc8 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc8
+   Display_Name: Vbmeta Vendor
+   Storage_Name: Vbmeta Vendor
+   Backup_Path: /vbmeta_vendor
+   Backup_Name: vbmeta_vendor
+   Backup_Display_Name: Vbmeta Vendor
+   Storage_Path: /vbmeta_vendor
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/bootloader | /dev/block/sdc31 | Size: 0MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc31
+   Display_Name: Bootloader
+   Storage_Name: Bootloader
+   Backup_Path: /bootloader
+   Backup_Name: bootloader
+   Backup_Display_Name: Bootloader
+   Storage_Path: /bootloader
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/bootloader2 | /dev/block/sdc32 | Size: 0MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /bootloader
+   Primary_Block_Device: /dev/block/sdc32
+   Display_Name: bootloader2
+   Storage_Name: bootloader2
+   Backup_Path: /bootloader2
+   Backup_Name: bootloader2
+   Backup_Display_Name: bootloader2
+   Storage_Path: /bootloader2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/logo | /dev/block/sdc34 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc34
+   Display_Name: Logo
+   Storage_Name: Logo
+   Backup_Path: /logo
+   Backup_Name: logo
+   Backup_Display_Name: Logo
+   Storage_Path: /logo
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/misc | /dev/block/sdc3 | Size: 0MB
+   Flags: IsPresent 
+   Primary_Block_Device: /dev/block/sdc3
+   Display_Name: misc
+   Storage_Name: misc
+   Backup_Path: /misc
+   Backup_Name: misc
+   Backup_Display_Name: misc
+   Storage_Path: /misc
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/expdb | /dev/block/sdc4 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc4
+   Display_Name: Expdb
+   Storage_Name: Expdb
+   Backup_Path: /expdb
+   Backup_Name: expdb
+   Backup_Display_Name: Expdb
+   Storage_Path: /expdb
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/seccfg | /dev/block/sdc15 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc15
+   Display_Name: SecCfg
+   Storage_Name: SecCfg
+   Backup_Path: /seccfg
+   Backup_Name: seccfg
+   Backup_Display_Name: SecCfg
+   Storage_Path: /seccfg
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/boot_para | /dev/block/sdc1 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc1
+   Display_Name: Boot Para
+   Storage_Name: Boot Para
+   Backup_Path: /boot_para
+   Backup_Name: boot_para
+   Backup_Display_Name: Boot Para
+   Storage_Path: /boot_para
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/proinfo | /dev/block/sdc18 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc18
+   Display_Name: Proinfo
+   Storage_Name: Proinfo
+   Backup_Path: /proinfo
+   Backup_Name: proinfo
+   Backup_Display_Name: Proinfo
+   Storage_Path: /proinfo
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/apd | /dev/block/sdc40 | Size: 0MB
+   Flags: IsPresent 
+   Primary_Block_Device: /dev/block/sdc40
+   Display_Name: apd
+   Storage_Name: apd
+   Backup_Path: /apd
+   Backup_Name: apd
+   Backup_Display_Name: apd
+   Storage_Path: /apd
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/nvcfg | /dev/block/sdc9 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc9
+   Display_Name: NvCfg
+   Storage_Name: NvCfg
+   Backup_Path: /nvcfg
+   Backup_Name: nvcfg
+   Backup_Display_Name: NvCfg
+   Storage_Path: /nvcfg
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/nvdata | /dev/block/sdc10 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc10
+   Display_Name: NvData
+   Storage_Name: NvData
+   Backup_Path: /nvdata
+   Backup_Name: nvdata
+   Backup_Display_Name: NvData
+   Storage_Path: /nvdata
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/nvram | /dev/block/sdc30 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc30
+   Display_Name: NvRam
+   Storage_Name: NvRam
+   Backup_Path: /nvram
+   Backup_Name: nvram
+   Backup_Display_Name: NvRam
+   Storage_Path: /nvram
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/protect_f | /dev/block/sdc13 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Has_SubPartition IsPresent 
+   Primary_Block_Device: /dev/block/sdc13
+   Display_Name: Protect F
+   Storage_Name: Protect F
+   Backup_Path: /protect_f
+   Backup_Name: protect_f
+   Backup_Display_Name: Protect F
+   Storage_Path: /protect_f
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/protect_s | /dev/block/sdc14 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /protect_f
+   Primary_Block_Device: /dev/block/sdc14
+   Display_Name: Protect S
+   Storage_Name: Protect S
+   Backup_Path: /protect_s
+   Backup_Name: protect_s
+   Backup_Display_Name: Protect S
+   Storage_Path: /protect_s
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/tee1 | /dev/block/sdc36 | Size: 0MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc36
+   Display_Name: Tee
+   Storage_Name: Tee
+   Backup_Path: /tee1
+   Backup_Name: tee1
+   Backup_Display_Name: Tee
+   Storage_Path: /tee1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/tee2 | /dev/block/sdc37 | Size: 0MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /tee1
+   Primary_Block_Device: /dev/block/sdc37
+   Display_Name: tee2
+   Storage_Name: tee2
+   Backup_Path: /tee2
+   Backup_Name: tee2
+   Backup_Display_Name: tee2
+   Storage_Path: /tee2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/persistent | /dev/block/sdc5 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc5
+   Display_Name: Frp
+   Storage_Name: Frp
+   Backup_Path: /persistent
+   Backup_Name: persistent
+   Backup_Display_Name: Frp
+   Storage_Path: /persistent
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/gz1 | /dev/block/sdc28 | Size: 0MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent 
+   Primary_Block_Device: /dev/block/sdc28
+   Display_Name: Gz
+   Storage_Name: Gz
+   Backup_Path: /gz1
+   Backup_Name: gz1
+   Backup_Display_Name: Gz
+   Storage_Path: /gz1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/gz2 | /dev/block/sdc29 | Size: 0MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /gz1
+   Primary_Block_Device: /dev/block/sdc29
+   Display_Name: gz2
+   Storage_Name: gz2
+   Backup_Path: /gz2
+   Backup_Name: gz2
+   Backup_Display_Name: gz2
+   Storage_Path: /gz2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/md1img | /dev/block/sdc19 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/sdc19
+   Display_Name: Modem
+   Storage_Name: Modem
+   Backup_Path: /md1img
+   Backup_Name: md1img
+   Backup_Display_Name: Modem
+   Storage_Path: /md1img
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/scp1 | /dev/block/sdc21 | Size: 0MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent 
+   Primary_Block_Device: /dev/block/sdc21
+   Display_Name: Scp
+   Storage_Name: Scp
+   Backup_Path: /scp1
+   Backup_Name: scp1
+   Backup_Display_Name: Scp
+   Storage_Path: /scp1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/scp2 | /dev/block/sdc22 | Size: 0MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /scp1
+   Primary_Block_Device: /dev/block/sdc22
+   Display_Name: scp2
+   Storage_Name: scp2
+   Backup_Path: /scp2
+   Backup_Name: scp2
+   Backup_Display_Name: scp2
+   Storage_Path: /scp2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/cam_vpu1 | /dev/block/sdc25 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc25
+   Display_Name: cam_vpu1
+   Storage_Name: cam_vpu1
+   Backup_Path: /cam_vpu1
+   Backup_Name: cam_vpu1
+   Backup_Display_Name: cam_vpu1
+   Storage_Path: /cam_vpu1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/cam_vpu2 | /dev/block/sdc26 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc26
+   Display_Name: cam_vpu2
+   Storage_Name: cam_vpu2
+   Backup_Path: /cam_vpu2
+   Backup_Name: cam_vpu2
+   Backup_Display_Name: cam_vpu2
+   Storage_Path: /cam_vpu2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/cam_vpu3 | /dev/block/sdc27 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc27
+   Display_Name: cam_vpu3
+   Storage_Name: cam_vpu3
+   Backup_Path: /cam_vpu3
+   Backup_Name: cam_vpu3
+   Backup_Display_Name: cam_vpu3
+   Storage_Path: /cam_vpu3
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/spmfw | /dev/block/sdc20 | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent 
+   Primary_Block_Device: /dev/block/sdc20
+   Display_Name: Spm
+   Storage_Name: Spm
+   Backup_Path: /spmfw
+   Backup_Name: spmfw
+   Backup_Display_Name: Spm
+   Storage_Path: /spmfw
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/sspm_1 | /dev/block/sdc23 | Size: 0MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent 
+   Primary_Block_Device: /dev/block/sdc23
+   Display_Name: Sspm
+   Storage_Name: Sspm
+   Backup_Path: /sspm_1
+   Backup_Name: sspm_1
+   Backup_Display_Name: Sspm
+   Storage_Path: /sspm_1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/sspm_2 | /dev/block/sdc24 | Size: 0MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /sspm_1
+   Primary_Block_Device: /dev/block/sdc24
+   Display_Name: sspm_2
+   Storage_Name: sspm_2
+   Backup_Path: /sspm_2
+   Backup_Name: sspm_2
+   Backup_Display_Name: sspm_2
+   Storage_Path: /sspm_2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/external_sd | /dev/block/mmcblk0p1 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Wipe_Available_in_GUI Removable IsPresent Is_Storage 
+   Primary_Block_Device: /dev/block/mmcblk0p1
+   Alternate_Block_Device: /dev/block/mmcblk0
+   Display_Name: External SDcard
+   Storage_Name: External SDcard
+   Backup_Path: /external_sd
+   Backup_Name: external_sd
+   Backup_Display_Name: External SDcard
+   Storage_Path: /external_sd
+   Current_File_System: auto
+   Fstab_File_System: auto
+   Backup_Method: files
+   MTP_Storage_ID: 65538
+
+/usbotg |  | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Wipe_Available_in_GUI Removable Is_Storage 
+   Primary_Block_Device: /dev/block/sdd1
+   Alternate_Block_Device: /dev/block/sdd
+   Display_Name: Usb-Otg
+   Storage_Name: Usb-Otg
+   Backup_Path: /usbotg
+   Backup_Name: usbotg
+   Backup_Display_Name: Usb-Otg
+   Storage_Path: /usbotg
+   Current_File_System: auto
+   Fstab_File_System: auto
+   Backup_Method: files
+   MTP_Storage_ID: 65539
+
+/super | /dev/block/by-name/super | Size: 0MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Alternate_Block_Device: /dev/block/by-name/super
+   Display_Name: super
+   Backup_Path: /super
+   Backup_Name: super
+   Backup_Display_Name: Super (Product, Vendor, System)
+   Current_File_System: emmc
+   Backup_Method: dd
+
+I:Attempt to load settings from settings file...
+I:InfoManager file '/data/media/TWRP/.twrps' not found.
+I:Backup folder set to '/data/media/TWRP/BACKUPS/Jelly2'
+I:Mount: Unable to find partition for path '/etc'
+I:Copied file /etc/recovery.fstab to /cache/recovery/recovery.fstab
+I:Version number saved to '/cache/recovery/.version'
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 80
+I:Switching packages (TWRP)
+I:Set page: 'system_readonly'
+I:TWFunc::Set_Brightness: Setting brightness control to 5
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 5
+I:TWFunc::Set_Brightness: Setting brightness control to 0
+I:TWFunc::Set_Brightness: Setting secondary brightness control to 0

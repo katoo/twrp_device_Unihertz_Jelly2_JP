@@ -1,5 +1,5 @@
-Device configuration for Unihertz Jelly2 TEE (non-european union)
-=================================================
+Device configuration for Unihertz Jelly2 JP
+===========================================
 
 This region device tree is intended for a special usage in a TWRP or similar environment.
 

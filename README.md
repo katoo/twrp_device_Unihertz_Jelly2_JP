@@ -1,7 +1,7 @@
 Device configuration for Unihertz Jelly2 JP
 ===========================================
 
-#Still doesn't work
+# Still doesn't work
 * boot: OK
 * adb shell: OK
 * mount system partition: manually OK

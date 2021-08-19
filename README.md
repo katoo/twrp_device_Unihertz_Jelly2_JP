@@ -1,6 +1,14 @@
 Device configuration for Unihertz Jelly2 JP
 ===========================================
 
+#Still doesn't work
+* boot: OK
+* adb shell: OK
+* mount system partition: manually OK
+* mount data partition: can"t decrypt
+* GUI: loops splash screen until to mount system partition manually
+* TouchScreen: doesn't work
+
 This region device tree is intended for a special usage in a TWRP or similar environment.
 
 If you are looking for a special device tree for the usage in a LineageOS or similar environment head over to https://github.com/Meetoul/android_device_Unihertz_Jelly2.
@@ -30,7 +38,7 @@ Additionally to this region device tree, you'll need the common device tree
 
 ## Documentations
 
-- [HOW-TO-BUILD.md](https://github.com/Meetoul/twrp_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-BUILD.md) - Building instructions for TWRP.
+- [HOW-TO-BUILD.md](https://github.com/katoo/twrp_device_Unihertz_Jelly2_JP/blob/master/docs/HOW-TO-BUILD.md) - Building instructions for TWRP.
 - [HOW-TO-INSTALL.md](https://github.com/Meetoul/twrp_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-INSTALL.md) - Installation instructions for the Jelly2.
 - [HOW-TO-UPDATE.md](https://github.com/Meetoul/twrp_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-UPDATE.md) - Update instructions for the Jelly2.
 - [HOW-TO-EXTRACT-FILES.md](https://github.com/Meetoul/twrp_device_Unihertz_Jelly2/blob/master/docs/HOW-TO-EXTRACT-FILES.md) - Instructions to extract files directly from the Jelly2 stock ROM files.
@@ -38,4 +46,4 @@ Additionally to this region device tree, you'll need the common device tree
 
 ## Special Thanks To
 
-- [ADeadTrousers](https://github.com/ADeadTrousers) - I used his [Atom L/XL device tree](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL) as a base for this one. Phones are almost identical, so device trees are almost identical as well.
+- [Meetoul](https://github.com/Meetoul) - I used his [Jelly2_TEE device tree](https://github.com/Meetoul/twrp_device_Unihertz_Jelly2_TEE) as a base for this one. Phones are almost identical, so device trees are almost identical as well.

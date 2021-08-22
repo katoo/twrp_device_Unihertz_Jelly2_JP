@@ -1,12 +1,12 @@
 Device configuration for Unihertz Jelly2 JP
 ===========================================
 
-# Work but undecrypt /data
+# Works but undecrypt userdata
 * boot: OK
 * adb shell: OK
 * GUI: OK
 * TouchScreen: OK(use Meetoul's kernel)
-* /data: undecrypt
+* userdata partition: undecrypt
 
 This region device tree is intended for a special usage in a TWRP or similar environment.
 

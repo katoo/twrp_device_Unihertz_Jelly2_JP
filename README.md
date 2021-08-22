@@ -1,13 +1,12 @@
 Device configuration for Unihertz Jelly2 JP
 ===========================================
 
-# Still doesn't work
+# Work but undecrypt /data
 * boot: OK
 * adb shell: OK
-* mount system partition: manually OK
-* mount data partition: can"t decrypt
-* GUI: loops splash screen until to mount system partition manually
-* TouchScreen: doesn't work
+* GUI: OK
+* TouchScreen: OK(use Meetoul's kernel)
+* /data: undecrypt
 
 This region device tree is intended for a special usage in a TWRP or similar environment.
 

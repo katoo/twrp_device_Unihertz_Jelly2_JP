@@ -25,14 +25,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_NAME := omni_Jelly2_JP
 PRODUCT_DEVICE := Jelly2_JP
 PRODUCT_BRAND := Unihertz
-PRODUCT_MODEL := Jelly2
+PRODUCT_MODEL := Jelly2_JP
 PRODUCT_MANUFACTURER := Unihertz
 
 PRODUCT_BOARD := g55v71c2k_dfl_jp_felica
 
 # Add fingerprint from Stock ROM build.prop
-BUILD_FINGERPRINT := "Unihertz/Jelly2/Jelly2:10/QP1A.190711.020/root.20210417.155922:user/release-keys"
+BUILD_FINGERPRINT := "Unihertz/Jelly2_JP/Jelly2_JP:10/QP1A.190711.020/root.20210422.092852:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=Jelly2_JP \
-    PRODUCT_NAME=Jelly2 \
-    PRIVATE_BUILD_DESC="Jelly2-user 10 QP1A.190711.020 root.20210417.155922 release-keys"
+    PRODUCT_NAME=Jelly2_JP \
+    PRIVATE_BUILD_DESC="Jelly2-user 10 QP1A.190711.020 root.20210422.092852 release-keys"
